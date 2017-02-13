@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## stereo calibration executable
 
 this is the executable of stereo calibration for VisionerTech VMG-PROV 01. use this to get camera intrinsic and rectify map for see-through, marker-based AR and SLAM-based AR. source code of this executable could be found here.
@@ -38,5 +38,4 @@ this is the executable of stereo calibration for VisionerTech VMG-PROV 01. use t
 5.  press "Esc" on the keyboard to save the result to /save_param/ folder. copy the whole folder to where it's needed.
 ![alt text](https://github.com/flankechen/stereo_calib_executable/blob/master/readme_image/saved_files.png "saved_files")
 =======
-# stereo_calib_executable
->>>>>>> 613e823f4c9d88ad10316ab48ccdad6cf9f1ec1d
+
