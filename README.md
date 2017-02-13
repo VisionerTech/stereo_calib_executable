@@ -37,5 +37,4 @@ this is the executable of stereo calibration for VisionerTech VMG-PROV 01. use t
 ![alt text](https://github.com/flankechen/stereo_calib_executable/blob/master/readme_image/rectified.png "rectified")
 5.  press "Esc" on the keyboard to save the result to /save_param/ folder. copy the whole folder to where it's needed.
 ![alt text](https://github.com/flankechen/stereo_calib_executable/blob/master/readme_image/saved_files.png "saved_files")
-=======
 
