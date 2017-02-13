@@ -12,20 +12,20 @@ this is the executable of stereo calibration for VisionerTech VMG-PROV 01. use t
 1.  install the Visual C++ Redistributable for Visual Studio 2012 Update 4  ["/exe/vcredist_x64.exe"](https://github.com/flankechen/stereo_calib_executable/blob/master/exe/vcredist_x64.exe).
 2.  plugin cameras to USB3.0 port. if it's recognized as a "USB web cam"
 
-    ![alt text](https://github.com/flankechen/stereo_calib_executable/blob/master/readme_image/usbwebcam.png "usbwebcam")
+     ![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/usbwebcam.png "usbwebcam")
 
     uninstall the driver
 
-    ![alt text](https://github.com/flankechen/stereo_calib_executable/blob/master/readme_image/usbwebview2.png "usbwebview2")
+    ![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/usbwebview2.png "usbwebview2")
 
     rescan for hardware
 
-    ![alt text](https://github.com/flankechen/stereo_calib_executable/blob/master/readme_image/usbwebview3.png "usbwebview3")
+    ![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/usbwebview3.png "usbwebview3")
 
     success!
 
-    ![alt text](https://github.com/flankechen/stereo_calib_executable/blob/master/readme_image/usbwebview4.png "usbwebview4")
-
+    ![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/usbwebview4.png "usbwebview4")
+    
 ## How to Run
 1.  print out ["acircles_pattern.png"](https://github.com/flankechen/stereo_calib_executable/blob/master/acircles_pattern.png) and stick it to a rigid surface, make it a "calibration board".
 2.  run ["/exe/stereo_calib.exe"](https://github.com/flankechen/stereo_calib_executable/blob/master/exe/stereo_calib.exe)， and you will see the image from left and right camera.
