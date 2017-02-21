@@ -1,7 +1,7 @@
 
 ## stereo calibration executable
 
-this is the executable of stereo calibration for VisionerTech VMG-PROV 01. use this to get camera intrinsic and rectify map for see-through, marker-based AR and SLAM-based AR. source code of this executable could be found here.
+this is the executable of stereo calibration for VisionerTech VMG-PROV 01. use this to get camera intrinsic and rectify map for see-through, marker-based AR and SLAM-based AR.
 
 ## Requirement:
 
@@ -28,13 +28,12 @@ this is the executable of stereo calibration for VisionerTech VMG-PROV 01. use t
     ![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/usbwebview4.png "usbwebview4")
 
 ## How to Run
-1.  print out ["acircles_pattern.png"](https://github.com/flankechen/stereo_calib_executable/blob/master/acircles_pattern.png) and stick it to a rigid surface, make it a "calibration board".
-2.  run ["/exe/stereo_calib.exe"](https://github.com/flankechen/stereo_calib_executable/blob/master/exe/stereo_calib.exe)， and you will see the image from left and right camera.
-3.  place the "calibration board" in front of the camera, press "c" on the key board to capture an image pair(a blue flash appera with success capture). try to capture around 10 pair of the "calibration board" with different angle orientation and distance, try to cover the whole field of view of the cameras.  you can watch a video sample here. the captured image pairs is list in /save_image/ folder.
+1.print out ["acircles_pattern.png"](https://github.com/VisionerTech/stereo_calib_executable/blob/master/acircles_pattern.png) and stick it to a rigid surface, make it a "calibration board".
+2.  run ["/exe/stereo_calib.exe"](https://github.com/VisionerTech/stereo_calib_executable/blob/master/exe/stereo_calib.exe)， and you will see the image from left and right camera.
+3.  place the "calibration board" in front of the camera, press "c" on the key board to capture an image pair(a blue flash appears with success capture). try to capture around 10 pair of the "calibration board" with different angle orientation and distance, try to cover the whole field of view of the cameras.  you can watch a video sample here. the captured image pairs is list in /save_image/ folder.
 ![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/calib_snap1.png "snap1")
 ![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/calib_snap2.png "snap2")
 4.  press "Esc" on the keyboard. program finds the pattern, perform stereo calibration and show the result. check the blue parallel lines to see left and right image is rectified.
 ![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/rectified.png "rectified")
 5.  press "Esc" on the keyboard to save the result to /save_param/ folder. copy the whole folder to where it's needed.
 ![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/saved_files.png "saved_files")
-
